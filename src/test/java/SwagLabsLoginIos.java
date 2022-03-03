@@ -17,7 +17,7 @@ public class SwagLabsLoginIos {
         capabilities.setCapability("automationName", "XCUITest");
         capabilities.setCapability("udid", "CB3931EC-0B2F-4763-AF77-723B5751DC2E");
         capabilities.setCapability("bundleId", "com.saucelabs.SwagLabsMobileApp");
-        capabilities.setCapability("app", "/Users/gowthamipv/Downloads/iOS.Simulator.SauceLabs.Mobile.Sample.app.2.7.1.app");
+        capabilities.setCapability("app", "/Users/gowthamipv/IdeaProjects/LoginPageios/src/test/resources/app/iOS.Simulator.SauceLabs.Mobile.Sample.app.2.7.1.app");
 
 
         WebDriver driver = new IOSDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
